@@ -1,0 +1,24 @@
+@startuml
+left to right direction
+actor "Врач" as vr
+  usecase "Создание учётной записи пациента в системе" as UC1
+  usecase "Назначение, редактирование и отмена лекарств" as UC2
+  usecase "Просмотр истории приёма лекарств пациентом" as UC3
+  usecase "Управление списком пациентов" as UC4
+  usecase "Регистрация в системе" as UC5
+  
+actor "Пациент" as pac
+  usecase "Вход в систему с использованием выданных врачом данных" as UC6
+  usecase "Просмотр расписания приёма лекарств" as UC7
+  usecase "Подтверждение приёма лекарств" as UC8
+vr --> UC1
+vr --> UC2
+vr --> UC3
+vr --> UC4
+vr --> UC5
+
+pac --> UC3
+pac --> UC6
+pac --> UC7
+pac --> UC8
+@enduml
