@@ -31,4 +31,4 @@
 -  ([**Use-case диаграма**](https://ibb.co/4R7LcXBR))
 -  ([**Блок-схема регистрации**](https://ibb.co/DfmGHdYH))
 - ([**Блок схема приёма лекарств**](https://ibb.co/gZfgbB8b))
-- ([**ER-диаграма**](https://ibb.co/jkNTYbdm))
+- ([**ER-диаграма**](https://ibb.co/KxRRB9vY))
